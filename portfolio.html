@@ -29,7 +29,7 @@
           </ul>
         </nav>
 
-        <ul class="nav-contacts">
+        <!-- <ul class="nav-contacts">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
@@ -37,6 +37,25 @@
           </li>
           <li>
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul> -->
+        <ul class="nav-contacts">
+          <li>
+              <a class="link" href="mailto:info@devstudio.com">
+                <svg class="envelope">
+                  <use href="./image/symbol-defs.svg#envelope"></use>
+                  </svg>      
+              info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link" href="tel:+380961111111" >
+              <svg class="phone">
+                <use href="./image/symbol-defs.svg#phone">
+
+                </use>
+              </svg>
+                          
+              +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -147,13 +166,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <!-- <div class="footer"> -->
+      <div class=" footer container">
+        <div class="footer-address">  
         <a href="./index.html" class="logo"
           ><span class="web">Web</span
           ><span class="footer-studio">Studio</span></a
         >
-        <!-- </div> -->
+        
         <address>
           <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="footer list">
@@ -169,6 +188,45 @@
             </li>
           </ul>
         </address>
+      </div>
+        <div class="footer-icons">
+          <h3 class=" footer pretitle">присоединяйтесь</h3>
+          <ul class="footer-icons-list">
+            <li class="footer-icons-item">
+              <a class="footer-icons-links" href="#">
+                <svg class="network" width="20" height="20">
+                  <use href="./image/symbol-defs.svg#instagram"> 
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <!-- <a class="footer-icons-links" href="#"> -->
+                <a class="footer-icons-links" href="https://www.google.com.ua/?hl=ru" target="blanc">
+                <svg class="network" width="20" height="20">
+                  <use href="./image/symbol-defs.svg#twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a class="footer-icons-links" href="#">
+                <svg class="network" width="20" height="20">
+                  <use href="./image/symbol-defs.svg#facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a class="footer-icons-links" href="#">
+                <svg class="network" width="20" height="20">
+                  <use href="./image/symbol-defs.svg#linkedin">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

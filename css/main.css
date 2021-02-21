@@ -7,7 +7,7 @@
   --primary-white: rgba(255, 255, 255, 1);
   --main-text-grey: rgba(117, 117, 117, 1);
   --ftr-text-grey-op60: rgba(255, 255, 255, 0.6);
-  --social-icons:#AFB1B8;
+  --social-icons: #AFB1B8;
 }
 
 ul {
@@ -196,6 +196,7 @@ img {
   width: calc(100% / 4);
   margin-right: 30px;
   background-color: var(--primary-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
 }
@@ -269,10 +270,24 @@ img {
 }
 
 .client-list {
-  display:flex;
+  display: flex;
+  justify-content: space-between;
 }
 
-.client-item {
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
+  border: 1px solid var(--social-icons);
+  border-radius: 4px;
+  fill: var(--social-icons);
+       
+}
+
+.client-link:hover,
+.client-line:focus {
+  border: 1px solid var(--primary-blue);
+  fill: var(--primary-blue);
 }

@@ -118,6 +118,7 @@ p {
 
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-grey);
@@ -189,6 +190,10 @@ footer {
   background-color: var(--bg-black);
 }
 
+.footer.container {
+  display: flex;
+}
+
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -233,6 +238,55 @@ footer {
 
 .footer-studio {
   color: var(--primary-white);
+}
+
+.footer-icons {
+  margin-left: 70px;
+}
+
+.footer.pretitle {
+  color: var(--primary-white);
+  text-transform: uppercase ;
+  margin-top: 12px;
+  margin-bottom: 20px;
+ }
+
+.footer-icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white);
+
+}
+
+.footer-icons-links:hover,
+.footer-icons-links:focus {
+  background: var(--primary-blue);
+}
+
+
+
+.footer-icons-item {
+  margin-right: 10px;
+}
+
+.footer-icons-item:last-child {
+  margin-right: 0px;
+}
+
+
+
+.footer-icons .network {
+
 }
 
 /* footer finish */
